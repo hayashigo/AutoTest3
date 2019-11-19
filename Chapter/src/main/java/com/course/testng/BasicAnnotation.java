@@ -7,11 +7,13 @@ public class BasicAnnotation {
     @Test
     public void testClass1(){
         System.out.println("Test这是测试用例1");
+        System.out.printf("Thread ID: %s%n", Thread.currentThread().getId());
     }
 
     @Test
     public void testClass2(){
         System.out.println("Test这是测试用例2");
+        System.out.printf("Thread ID: %s%n", Thread.currentThread().getId());
     }
 
     @BeforeMethod
