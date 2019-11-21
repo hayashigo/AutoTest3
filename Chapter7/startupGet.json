@@ -11,6 +11,24 @@
         "Content-Type":"text/html;charset=gbk"
       }
     }
+  },
+  {
+    "description": "模拟一个带参数的get请求",
+    "request": {
+      "uri": "/getwithParam",
+      "method": "get",
+      "queries": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三又回来了！！！",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
 
+    }
   }
+
 ]
